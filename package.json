@@ -19,6 +19,6 @@
     "rimraf": "^5.0.5"
   },
   "bin": {
-    "create-boilerplate": "./bin/generate-app.js"
+    "create-upkaran": "./bin/generate-app.js"
   }
 }
