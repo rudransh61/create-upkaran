@@ -1,0 +1,24 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "description": "This is a boilerplate project for Upkaran.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./public/index.html",
+    "build": "parcel build ./src/index.js"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Rudransh Bhardwaj",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.5"
+  },
+  "bin": {
+    "create-boilerplate": "./bin/generate-app.js"
+  }
+}
